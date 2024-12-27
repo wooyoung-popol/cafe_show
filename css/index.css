@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Pretendard';
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+    min-width: 1300px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+/* 헤더 */
+header{
+    border-bottom: 1px solid #333;
+}
+.header_in{
+    width: 1300px;
+    margin: auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_in img{
+    display: block;
+}
+.nav{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+}
+.nav li a{
+    display: block;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav li a:hover{
+    color: #d7092f;
+}
+
+/* 메인 배너 */
+.main_banner{
+    width: 100%;
+}
+
+/* 내용 */
+section{
+    width: 1300px;
+    margin: 30px auto;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+h1 span{
+    background-color: #333;
+    color: #fff;
+}
+hr{
+    border-top: 1px solid #333;   
+    margin: 30px 0;
+}
+
+/* 내용1 */
+article{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+article div{
+    width: 630px;
+}
+article h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+/* 참가업체 검색 */
+.search{
+    text-align: center;
+}
+.search h2{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+input[type="search"]{
+    border: 5px solid #333;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    background: url(./images/search.png) no-repeat 95% 50%;
+}
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
+.search p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 20px;
+}
+
+/* 참가업체 */
+.store{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 180px;
+}
+.store li{
+    width: 450px;
+    height: 540px;
+    box-sizing: border-box;
+    padding: 350px 30px 0;
+    color: #fff;
+    margin-top: 30px;
+}
+.store .bg1{
+    background: url(./images/parti1.png);
+    margin-top: 0;
+}
+.bg2{
+    background: url(./images/parti3.png);
+}
+.bg3{
+    background: url(./images/parti2.png);
+}
+.bg4{
+    background: url(./images/parti5.png);
+}
+h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+/* 푸터 */
+footer{
+    border-top: 1px solid #333;
+    padding: 30px 0;
+}
+.footer_in{
+    width: 1300px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+}
+.footer_in a{
+    margin-right: 100px;
+}
+.footer_in ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-bottom: 10px;
+}
